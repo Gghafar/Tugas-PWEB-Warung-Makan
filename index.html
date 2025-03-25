@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Warung</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            text-align: center;
+        }
+        header {
+            background-color: #ff9800;
+            padding: 15px;
+            color: white;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+        }
+        .menu-item {
+            background: white;
+            margin: 10px auto;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            max-width: 300px;
+        }
+        .menu-item img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Warung Makan Sederhana</h1>
+        <nav>
+            <ul>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">Tentang Kami</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="menu">
+        <h2>Menu Makanan</h2>
+        <div class="menu-item">
+            <img src="nasi goreng.jpg" alt="Nasi Goreng">
+            <h3>Nasi Goreng</h3>
+            <p>Rp15.000</p>
+        </div>
+        <div class="menu-item">
+            <img src="mie ayam.jpg" alt="Mie Ayam">
+            <h3>Mie Ayam</h3>
+            <p>Rp12.000</p>
+        </div>
+        <div class="menu-item">
+            <img src="soto ayam.jpg" alt="Soto Ayam">
+            <h3>Soto Ayam</h3>
+            <p>Rp18.000</p>
+        </div>
+    </section>
+    
+    <section id="about">
+        <h2>Tentang Kami</h2>
+        <p>Warung Makan Sederhana menyajikan makanan rumahan yang lezat dan terjangkau.</p>
+    </section>
+    
+    <section id="contact">
+        <h2>Kontak</h2>
+        <p>Email: warungmakan@email.com</p>
+        <p>Telepon: 0812-3456-7890</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Warung Makan Sederhana. All rights reserved.</p>
+    </footer>
+</body>
+</html>
